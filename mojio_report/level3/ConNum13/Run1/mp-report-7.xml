@@ -1,0 +1,103 @@
+<MeshPointDevice time="580" address="00:00:00:00:00:08">
+<Statistics
+txUnicastData="37668"
+txUnicastDataBytes="7081584"
+txBroadcastData="8"
+txBroadcastDataBytes="224"
+rxUnicastData="3"
+rxUnicastDataBytes="84"
+rxBroadcastData="20"
+rxBroadcastDataBytes="560"
+fwdUnicastData="21863"
+fwdUnicastDataBytes="4110084"
+fwdBroadcastData="20"
+fwdBroadcastDataBytes="560"
+/>
+<Interface BeaconInterval="0.5" Channel="0" SumOfNode="34514529095" Address = "00:00:00:00:00:08">
+<Statistics rxBeacons="3313" txFrames="66153" txBytes="12271335" rxFrames="35662" rxBytes="5616782"/>
+</Interface>
+<Hwmp address="00:00:00:00:00:08"
+maxQueueSize="255"
+Dot11MeshHWMPmaxPREQretries="3"
+Dot11MeshHWMPnetDiameterTraversalTime="0.1024"
+Dot11MeshHWMPpreqMinInterval="0.1024"
+Dot11MeshHWMPperrMinInterval="0.1024"
+Dot11MeshHWMPactiveRootTimeout="5.12"
+Dot11MeshHWMPactivePathTimeout="5.12"
+Dot11MeshHWMPpathToRootInterval="2.048"
+Dot11MeshHWMPrannInterval="5.12"
+isRoot="0"
+maxTtl="32"
+unicastPerrThreshold="32"
+unicastPreqThreshold="1"
+unicastDataThreshold="1"
+doFlag="0"
+rfFlag="1">
+<Statistics txUnicast="59531" txBroadcast="28" txBytes="11626348" droppedTtl="14" totalQueued="5444" totalDropped="790" initiatedPreq="232" initiatedPrep="972" initiatedPerr="508"/>
+<HwmpProtocolMac
+address ="00:00:00:00:00:08">
+<Statistics txPreq= "2254"
+txPrep="2693"
+txPerr="776"
+rxPreq="5058"
+rxPrep="2521"
+rxPerr="744"
+txMgt="5723"
+txMgtBytes="209485"
+rxMgt="8323"
+rxMgtBytes="315997"
+txData="59559"
+txDataBytes="11668924"
+rxData="25931"
+rxDataBytes="5071916"/>
+</HwmpProtocolMac>
+</Hwmp>
+<PeerManagementProtocol>
+<Statistics linksTotal="3" linksOpened="250" linksClosed="247"/>
+<PeerManagementProtocolMac address="00:00:00:00:00:08">
+<Statistics txOpen="331"
+txConfirm="254"
+txClose="387"
+rxOpen="316"
+rxConfirm="253"
+rxClose="381"
+dropped="101"
+brokenMgt="0"
+txMgt="972"
+txMgtBytes="39596"
+rxMgt="950"
+rxMgtBytes="36702"
+beaconShift="900"/>
+</PeerManagementProtocolMac>
+<PeerLink
+localAddress="00:00:00:00:00:08"
+peerInterfaceAddress="00:00:00:00:00:04"
+peerMeshPointAddress="00:00:00:00:00:04"
+metric="242"
+lastBeacon="579.836"
+localLinkId="316"
+peerLinkId="134"
+assocId="315"
+/>
+<PeerLink
+localAddress="00:00:00:00:00:08"
+peerInterfaceAddress="00:00:00:00:00:07"
+peerMeshPointAddress="00:00:00:00:00:07"
+metric="151"
+lastBeacon="579.771"
+localLinkId="326"
+peerLinkId="616"
+assocId="325"
+/>
+<PeerLink
+localAddress="00:00:00:00:00:08"
+peerInterfaceAddress="00:00:00:00:00:0c"
+peerMeshPointAddress="00:00:00:00:00:0c"
+metric="173"
+lastBeacon="579.986"
+localLinkId="328"
+peerLinkId="262"
+assocId="327"
+/>
+</PeerManagementProtocol>
+</MeshPointDevice>
