@@ -1,0 +1,2 @@
+*.cpp linguist-language=c++
+public/js/pdfjs.js linguist-vendored=true
